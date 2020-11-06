@@ -22,6 +22,8 @@
 				border-radius: 45px;
 				padding-left: 15px;
 				&::placeholder{
+					font: normal normal normal 16px/21px Roboto;
+					letter-spacing: 0px;
 					color: #FC7700;
 				}
 				&:focus{
@@ -56,10 +58,9 @@
 				list-style-type: none;
 				margin-right: 15px;
 				a{
+					font: normal normal normal 16px/21px Roboto;
+					letter-spacing: 0px;
 					color: #FC7700;
-					font-size: 16px;
-					font-family: Roboto;
-					font-weight: 400;
 					&:hover{
 						color: #FC7700;
 						text-decoration: none;
@@ -68,15 +69,16 @@
 			}
 			.phone_hotline{
 				a{
-					color: #fff;
 					background: #FC7700;
 					border: none;
 					border-radius: 45px;
 					width: 170px;
 					height: 30px;
-					line-height: 20px;
+					font: normal normal normal 16px/21px Roboto;
+					letter-spacing: 0px;
+					color: #FFFFFF;
 					&:hover{
-						
+						color: #fff;
 						img{
 
 						}
@@ -108,6 +110,9 @@
 		a{
 			color: #fff;
 			text-transform: uppercase;
+			font: normal normal normal 18px/22px UTM_Facebooks;
+			letter-spacing: 0px;
+			color: #FFFFFF;
 			&:hover{
 				text-decoration: none;
 			}
@@ -131,11 +136,17 @@
 	width: 100%;
 	text-align: center;
 	h2{
-		color: #ba0000;
+		text-align: center;
+		font: normal normal normal 45px/56px UTM_Facebooks;
+		letter-spacing: 0px;
+		color: #BA0000;
 		text-transform: uppercase;
 	}
 	p{
-		color: #ba0000;
+		font: normal normal normal 30px/37px Montserrat;
+	    letter-spacing: 0px;
+	    color: #BA0000;
+	    text-transform: capitalize;
 	}
 }
 .section_go_edu{
@@ -156,11 +167,16 @@
 			padding: 15px;
 			height: 270px;
 			h2{
-				color: #fff;
+				text-transform: capitalize;
+			    font: normal normal bold 26px/32px Roboto;
+			    letter-spacing: 0px;
+			    color: #FFFFFF;
     			text-transform: capitalize;
 			}
 			p{
-				color: #fff;
+				font: normal normal normal 22px/29px Roboto;
+				letter-spacing: 0px;
+				color: #FFFFFF;
 			}
 		}
 		.edu_1{
@@ -263,18 +279,21 @@
 .btn_default{
 	text-align: center;
 	a{
-		background: #fc7700;
 		text-transform: uppercase;
 		border-radius:50px;
-		width: 300px;
+		width: 500px;
 		height: 50px;
 		color: #fff;
 		line-height: 40px;
+		background: transparent linear-gradient(268deg, #DF5100 0%, #702900 100%) 0% 0% no-repeat padding-box;
 		&:hover{
 			text-decoration: none;
 			color: #fff;
 		}
 		span{
+			font: normal normal normal 26px/32px Montserrat;
+		    letter-spacing: 0px;
+		    color: #FFFFFF;
 			img{
 				width: 20px;
 				margin-right: 15px;
@@ -331,7 +350,11 @@
 			text-align: center;
 			text-transform: uppercase;
 			h2{
-				color: #fff;
+				padding: 10px;
+			    font: normal normal bold 22px/27px Roboto;
+			    letter-spacing: 0px;
+			    color: #FFFFFF;
+			    text-transform: uppercase;
 				padding:10px;
 				margin: 0;
 			}
@@ -344,6 +367,9 @@
 				color: #fc7700;
 				position: relative;
 				margin: 10px 0;
+				font: normal normal 300 20px/25px vlbauhau;
+				letter-spacing: 0px;
+				color: #FC7700;
 				&:before{
 					position: absolute;
 					content: '';
@@ -361,11 +387,18 @@
 	width: 100%;
 	text-align: center;
 	h2{
-		color: #fff;
 		text-transform: uppercase;
+		text-align: center;
+		font: normal normal bold 45px/58px UTM_Facebooks;
+		letter-spacing: 0px;
+		color: #FFFFFF;
 	}
 	p{
-		color: #fff;
+		text-align: center;
+		font: normal normal normal 30px/37px Montserrat;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		text-transform: capitalize;
 	}
 }
 .section_method_study{
@@ -396,14 +429,21 @@
 		border-radius: 10px;
 		h3{
 			text-transform: uppercase;
-			color: #ba0000;
-			font-weight: bold;
 			margin-top: 0;
+			font-weight: bold;
+		    margin-top: 0px;
+		    text-decoration: underline;
+		    font: normal normal bold 22px/27px Roboto;
+		    letter-spacing: 0px;
+		    color: #BA0000;
 		}
 		p{
-			color: #3c3c3c;
 			position: relative;
-			margin-bottom: 0;
+		    margin-bottom: 0px;
+		    text-align: left;
+		    font: normal normal 300 20px/25px VL Bauhaus Std;
+		    letter-spacing: 0px;
+		    color: #090909;
 			&:before{
 				position: absolute;
 				content:'';
@@ -509,7 +549,10 @@
 			padding-bottom: 10px;
 			margin: 5px 0;
 			&::placeholder{
-				color: rgb(252, 119, 0);
+				text-align: left;
+				font: normal normal 300 18px/28px VL Bauhaus Std;
+				letter-spacing: 0px;
+				color: #FB5100;
 			}
 			&:focus{
 				outline: 0;
@@ -526,21 +569,34 @@
 			border-radius: 50px;
 			padding-top: 10px;
 			padding-bottom: 10px;
-			color: rgb(252, 119, 0);
 			margin: 5px 0;
+			text-align: left;
+			font: normal normal 300 18px/28px VL Bauhaus Std;
+			letter-spacing: 0px;
+			color: #FB5100;
 			&:focus{
 				outline: 0;
 			}
 		}
 		.btn_form_homepage{
 			width: 170px;
-			background: #fff;
-			color: rgb(252, 119, 0);
-			border: 1px solid rgb(252, 119, 0);
-			text-transform: uppercase;
-			border-radius: 50px;
-			margin: auto;
-			margin-top: 30px;
+		    background: #fff;
+		    border: 1px solid #fc7700;
+		    text-transform: uppercase;
+		    border-radius: 50px;
+		    margin: auto;
+		    margin-top: 30px;
+		    text-align: left;
+		    font: normal normal normal 36px/44px Montserrat;
+		    letter-spacing: 0px;
+		    color: #FB5100;
+		    img{
+		    	position: inherit;
+		    	left: inherit;
+			    top: inherit;
+			    transform: inherit;
+			    width: 20px;
+		    }
 		}
 	}
 }
@@ -615,6 +671,9 @@
 				color: #fc770f;
 				text-transform: uppercase;
 				text-align: center;
+				font: normal normal bold 45px/58px UTM_Facebooks;
+				letter-spacing: 0px;
+				color: #FC7700;
 			}
 			div{
 				img{
@@ -625,7 +684,7 @@
 				color: rgb(252, 119, 15);
 			    text-transform: uppercase;
 			    border: 1px solid rgb(252, 119, 15);
-			    width: 50%;
+			    width: 70%;
 			    text-align: center;
 			    margin: auto;
 			    line-height: 30px;
@@ -658,16 +717,21 @@
 		color: #fc770f;
 		text-transform: uppercase;
 		text-align: center;
+		letter-spacing: 0px;
+		font: normal normal bold 45px/58px UTM_Facebooks;
+	    color: #FC7700;
+	    text-transform: uppercase;
 	}
 	form{
 		width: 100%;
 		padding: 30px;
 		input{
 			width: 100%;
-			padding: 10px 15px;
+			padding: 15px 15px;
 			margin: 5px 0;
 			border: 1px solid #fc770f;
 			border-radius: 5px;
+			font: normal normal 300 22px/27px vlbauhau;
 			&::placeholder{
 				color: #fc770f;
 			}
@@ -680,11 +744,16 @@
 		}
 		a{
 			width: 100%;
-		    background: #fc770f;
+		    background: transparent linear-gradient(268deg, #DF5100 0%, #702900 100%) 0% 0% no-repeat padding-box;
 		    border-radius: 5px;
-		    padding: 10px 15px;
+		    padding: 15px 15px;
 		    color: #fff;
 		    text-transform: uppercase;
+		    text-transform: uppercase;
+		    font: normal normal 300 22px/27px Montserrat;
+		    letter-spacing: 0px;
+		    color: #FFFFFF;
+		    margin-top: 5px;
 		    &:hover{
 		    	color: #fff;
 		    }
@@ -700,10 +769,14 @@
 .element_video_pf{
 	background: #fff;
 	.video{
+		height: 100%;
 		.thumb_nail_pf{
 			position: relative;
+			height: 100%;
 			img{
 				width: 100%;
+				height: 100%;
+				object-fit: cover;
 			}
 			.play_video{
 				position: absolute;
@@ -712,6 +785,7 @@
 				transform: translate(-50%, -50%);
 				width: auto;
 				cursor: pointer;
+				height: auto;
 			}
 		}
 	}
@@ -723,32 +797,39 @@
 			color: #fff;
     		text-transform: uppercase;
     		margin: 0;
+    		font: normal normal bold 22px/27px UTM_Facebooks;
 		}
 		p{
 			color: #fff;
+			font: normal normal 300 22px/27px vlbauhau;
 		}
 		ul{
 			li{
-				list-style: none;
 				color: #fff;
+				font: normal normal 300 22px/27px vlbauhau;
 			}
 		}
 		h3{
 			color: #fff;
     		text-transform: uppercase;
     		margin: 0;
+    		font: normal normal 300 22px/27px vlbauhau;
 		}
 		.btn_pf{
 			width: 100%;
 			background: #fff;
-			color: #fc770f;
+			color: var(--unnamed-color-ff5f04);
+			font: normal normal normal 22px/27px Montserrat;
+			letter-spacing: 0px;
+			color: #FF5F04;
 			text-transform: uppercase;
-			margin-top: 15px;
+			    padding: 15px;
+			margin-top: 10px;
 		}
 	}
 }
 .news_left{
-	width: 49%;
+	width: 48.5%;
 	overflow: hidden;
 	display: flex;
 	justify-content: space-between;
@@ -771,6 +852,28 @@
 			width: 58%;
 			float:right;
 			overflow: hidden;
+			h3{
+				a{
+					color: #fc770f;
+					font: normal normal bold 20px/24px Montserrat;
+					letter-spacing: 0px;
+					color: #FB5100;
+					&:hover{
+						color: #fc770f;
+						text-decoration: none;
+					}
+				}
+			}
+			p{
+				color: #3c3c3c;
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				font: normal normal 300 16px/20px vlbauhau;
+				letter-spacing: 0px;
+				color: #171717;
+			}
 		}
 	}
 	.item_col{
@@ -778,12 +881,33 @@
 		overflow: hidden;
 		.img{
 			width: 100%;
-			height: 200px;
+			height: 100px;
 			img{
 				width: 100%;
 				height: 100%;
 				object-fit: cover;
 			}
+		}
+		h3{
+			margin-top: 10px;
+			line-height: 20px;
+			a{
+				font-size: 18px;
+				font: normal normal 300 16px/20px VL Bauhaus Std;
+				letter-spacing: 0px;
+				color: #171717;
+				&:hover{
+					color: #fc770f;
+					text-decoration: none;
+				}
+			}
+		}
+		p{
+			color: #3c3c3c;
+			display: -webkit-box;
+			-webkit-line-clamp: 3;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
 		}
 	}
 }
@@ -798,6 +922,9 @@
 		font-weight: bold;
 		color: #fc770f;
 		margin-bottom: 15px;
+		font: normal normal bold 45px/58px UTM Facebook K&T;
+		letter-spacing: 0px;
+		color: #FB5100;
 	}
 	a{
 		color: rgb(255, 255, 255);
@@ -806,10 +933,14 @@
 	    width: 100px;
 	    height: 30px;
 	    line-height: 16px;
+	    font: normal normal 300 18px/22px vlbauhau;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+		line-height: 15px;
 	}
 }
 .news_right{
-	width: 49%;
+	width: 48.5%;
 	float:right;
 	display: flex;
 	flex-flow: row wrap;
@@ -818,4 +949,166 @@
 .item_col_right{
 	width: 48%;
 	overflow: hidden;
+	.img{
+		width: 100%;
+		height: 200px;
+		img{
+			width: 100%;
+			height: 100%;
+			object-fit:  cover;
+		}
+	}
+	.content{
+		h3{
+			a{
+				color: #fc770f;
+				font-size: 18px;
+				font: normal normal bold 20px/24px Montserrat;
+				letter-spacing: 0px;
+				color: #FB5100;
+				&:hover{
+					color: #fc770f;
+					text-decoration: none;
+				}
+			}
+		}
+		p{
+			color: #3c3c3c;
+			display: -webkit-box;
+			-webkit-line-clamp: 3;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			text-align: left;
+			font: normal normal 300 16px/20px VL Bauhaus Std;
+			letter-spacing: 0px;
+			color: #171717;
+		}
+	}
+}
+.date{
+	span{
+		color: #fc770f;
+		position: relative;
+		padding-right: 10px;
+		font: normal normal 300 16px/20px vlbauhau;
+		letter-spacing: 0px;
+		color: #FB5100;
+		&:before{
+			position: absolute;
+			content: '';
+			width: 1px;
+			height: 20px;
+			right: 5px;
+			transform: rotateZ(12deg);
+			background: #fc770f;
+		}
+		&:last-child{
+			&:before{
+				display: none;
+			}
+		}
+	}
+}
+.footer{
+	background: #FB5100;
+	padding-top: 50px;
+	.row{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+}
+.footer_left{
+	width: 48.5%;
+	.logo_footer{
+		width: 40%;
+		img{
+			width: 100%;
+		}
+	}
+	p{
+		color: #fff;
+		font: normal normal normal 16px/26px Roboto;
+			letter-spacing: 0px;
+			color: #FFFFFF;
+			padding-left: 30px;
+	}
+	ul{
+		padding-left: 0;
+		li{
+			list-style-type: none;
+			position: relative;
+			color: #fff;
+			font: normal normal normal 16px/26px Roboto;
+			letter-spacing: 0px;
+			color: #FFFFFF;
+			padding-left: 30px;
+			span{
+				position: absolute;
+				left: 0;
+				top: 50%;
+				transform: translate(0, -50%);
+				img{
+					margin-right: 15px;
+				}
+			}
+		}
+	}
+}
+.footer_right{
+	width: 48.5%;
+	overflow: hidden;
+	h3{
+		text-transform: uppercase;
+		text-align: left;
+		font: normal normal bold 20px/24px Roboto;
+		letter-spacing: 0px;
+		color: #FFFFFF;
+	}
+}
+.form_footer{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	margin-top: 20px;
+	input{
+		width: 100%;
+		padding: 15px;
+		border: none;
+		&::placeholder{
+			color: #fc770f;
+			text-align: left;
+			font: normal normal normal 18px/24px Roboto;
+			letter-spacing: 0px;
+			color: #171717;
+		}
+		&:focus{
+			outline: 0;
+			&::placeholder{
+				opacity: 0;
+			}
+		}
+	}
+	.btn_submit_footer{
+		background: #fc770f;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translate(0, -50%);
+		border: none;
+		padding:20px;
+		img{
+			width: 20px;
+		}
+	}
+}
+.copyright{
+	margin: 0;
+	background: transparent linear-gradient(268deg, #DF5100 0%, #702900 100%) 0% 0% no-repeat padding-box;
+	text-align: center;
+	p{
+		font: normal normal normal 16px/26px Roboto;
+		color: #FFFFFF;
+		padding: 20px 0;
+	}
 }
