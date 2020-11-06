@@ -23,6 +23,10 @@ $(document).ready(function(){
     },
     ]
   });
+  $('.slider_pf').slick({
+    dots: true,
+    slidesToShow: 1,
+  });
   
  
 });
